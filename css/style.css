@@ -1,20 +1,88 @@
-/* 
-    RESET
-*/
+/*RESET*/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* 
-    GENERAL
-*/
+
+/*GENERAL*/
 html {
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+/* HEADER */
+header{
+    background-color: #0084FD;
+}
+
+#nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+#nav-container .logo{
+    width: 50px;
+    height: 20px;
+}
+
+#nav-container .logo img{
+    width: 100%;
+}
+
+#nav-container nav{
+    display: none;
+}
+
+#nav-container nav li{
+    display: inline-block;
+}
+
+#nav-container nav li a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 0 20px;
+}
+
+#nav-container .hamburger-icon{
+    color: white;
+    padding: 5.5px 12px;
+}
+
+#nav-container nav ul button{
+    border-radius: 25px;
+    border: none;
+    padding: 7px 12px;
+}
+
+
+/* MEDIA QUERY */
+
+/* Tablet */
+@media screen and (min-width: 768px){
+
+    
+}
+
+
+/* Desktop */
+@media screen and (min-width: 992px){
+    
+    #nav-container nav{
+        display: block;
+    }
+
+    #nav-container .hamburger-icon {
+        display: none;
+    }
 }
