@@ -51,6 +51,10 @@ html {
     color:#0084FD;
 }
 
+.black-color{
+    background-color: #333333;
+}
+
 
 /* HEADER */
 header{
@@ -316,6 +320,61 @@ header{
     color: black;
     line-height: 30px;
     margin-bottom: 40px;
+}
+
+
+/* FOOTER */
+footer{
+    text-align: center;
+}
+
+footer .container{
+    margin: 30px auto;
+}
+footer p{
+    color: white;
+    padding: 35px 0;
+}
+
+footer .footer-top,
+footer .footer-bottom{
+    padding: 30px 120px;
+}
+
+footer .footer-top h3{ 
+    font-size: 40px;
+    color: white;
+}
+
+footer .footer-top .h3-speciale{
+    color: #FDC15F;
+    font-size: 70px;
+    padding-top: 35px;
+}
+
+footer .footer-top p{
+    line-height: 25px;
+}
+
+footer .footer-top button{
+    background-color: white;
+    border-radius: 30px;
+    padding: 10px 40px;
+    color: #9792E4;
+    margin: 30px 0;
+    border: none;
+}
+
+footer span{
+    text-decoration: underline;
+}
+
+footer .footer-bottom p{
+    line-height: 25px;
+}
+
+footer .footer-bottom span{
+    color: #9792E4;
 }
 
 
