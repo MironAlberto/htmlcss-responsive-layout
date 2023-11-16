@@ -17,6 +17,40 @@ html {
     padding: 0 20px;
 }
 
+.my-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-bottom: 50px;
+    padding-bottom: 30px;
+}
+
+.my-col{
+    width: calc((100% - 20px));
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.purple-color{
+    background-color: #9792E4;
+}
+
+#blue-color{
+    background-color: #B5DDFF;
+}
+
+#white-color{
+    background-color: white;
+}
+
+#darkblue-color{
+    color:#0084FD;
+}
+
 
 /* HEADER */
 header{
@@ -66,12 +100,285 @@ header{
 }
 
 
+/* MAIN */
+.container .my-row h3{
+    padding: 25px 0;
+    text-align: center;
+}
+
+.container .my-row .my-col-speciale h3,
+.container .my-row .my-col-speciale p{
+    text-align: left;
+}
+
+.container .my-row p{
+    line-height: 25px;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.icons{
+    text-align: center;
+}
+
+.container .my-row .infos button{
+    width: 90%;
+    border-radius: 20px;
+    padding: 10px;
+    border: none;
+    color: white;
+    text-align: center;
+    background-color: #0084FD;
+    margin: 20px 0;
+}
+
+.small-container{
+    padding-bottom: 40px;
+}
+
+.small-container .left-side img{
+    width: 100%;
+    padding: 30px 30px;
+}
+
+.small-container .right-side img{
+    width: 80%;
+}
+
+.small-container .right-side .card{
+    background-color: white;
+    border-radius: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 20px;
+    margin-top: 30px;
+}
+
+.small-container .left-side h3{
+    font-size: 40px;
+    margin-top: 40px;
+    margin-bottom: 45px;
+    color: white;
+}
+
+.small-container .left-side p{
+    line-height: 25px;
+    color: white;
+}
+
+.small-container .right-side h3{
+    margin: 30px 0;
+}
+
+.small-container .right-side p{
+    line-height: 24px;
+    text-align: center;
+}
+
+.small-container .right-side button{
+    border-radius: 50%;
+    background-color: #9792E4;
+    border: none;
+    padding: 12px 15px;
+    margin-top: 20px;
+}
+
+.my-row .my-col-speciale .phone-image img{
+    width: 100%;
+}
+
+.testimonials-top-container{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.testimonials-top-container p{
+    padding: 30px 0;
+    line-height: 35px;
+}
+
+.testimonials-top-container h2{
+    color: #9792E4;
+    font-size: 35px;
+}
+
+.testimonials-bottom-container .testimonials-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #9792E4;
+    padding: 30px;
+    border-radius: 30px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.last-section .right-side .round-image, 
+.testimonials-bottom-container .testimonials-card .round-image{
+    width: 200px;
+    height: 200px;
+    flex-shrink: 0;
+}
+
+.testimonials-bottom-container .testimonials-card{
+    flex-grow: 1;
+}
+
+.last-section .right-side .round-image img,
+.testimonials-bottom-container .testimonials-card .round-image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.testimonials-bottom-container .testimonials-card p{
+    padding: 30px 40px;
+    line-height: 25px;
+    color: white;
+}
+
+.testimonials-bottom-container .testimonials-card span{
+    padding: 0 40px;
+    color: white;
+}
+
+.purple-color .container .my-row .my-col p{
+    text-align: left;
+}
+
+.purple-color .container .my-row .my-col h3 {
+    color: #9792E4;
+    text-align: left;
+}
+
+.purple-color .container h2{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    padding: 30px 0;
+}
+
+.purple-color .container .my-row .my-col span{
+    font-size: 50px;
+    padding-top: 20px;
+    color: #9792E4;
+}
+
+.purple-color .container .my-row .my-col button{
+    width: 50%;
+    border-radius: 20px;
+    background-color: #9792E4;
+    border: none;
+    padding: 12px 15px;
+    margin-top: 20px;
+    color: white;
+}
+
+.about-us-container{
+    margin: 50px 30px;
+}
+
+.about-us-container .left-side h2{
+    font-size: 45px;
+    color: #9792E4;
+    padding: 30px 0;
+}
+
+.last-section .left-side{
+    width: 100%;
+}
+
+.last-section .right-side{
+    width: 100%;
+}
+
+.last-section .right-side p{
+    line-height: 25px;
+    color: #9792E4;
+    padding: 20px 0;
+    
+}
+
+.last-section .right-side button{
+    width: 70%;
+    border-radius: 20px;
+    background-color: #9792E4;
+    border: none;
+    padding: 12px 15px;
+    margin-top: 20px;
+    color: white;
+}
+
+.last-section .left-side p {
+    color: black;
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+
+
 /* MEDIA QUERY */
 
 /* Tablet */
 @media screen and (min-width: 768px){
 
+    .my-col-tablet-33{
+        width: calc((100% / 3) - 20px);
+    }
+
+    .my-col-speciale{
+        width: calc(((100% / 3) * 2) - 20px);
+    }
+
+    .my-col-tablet-50{
+        width: calc((70% / 3) * 2);
+    } 
+
+    .my-row{
+        display: flex;
+        justify-content: center;
+    } 
+
+    .small-container{
+        padding-bottom: 40px;
+    }
+
+    .small-container .left-side img{
+        width: 100%;
+        padding: 70px 30px;
+    }
+
+    .small-container .right-side img{
+        width: 80%;
+    }
+
+    .testimonials-bottom-container .testimonials-card{
+        display: flex;
+        flex-direction: row;
+        text-align: left;
+    }
+
+    .about-us-container{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .last-section .left-side{
+        width: 60%;
+    }
     
+    .last-section .right-side{
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .last-section .right-side p {
+        text-align: center;
+    }
 }
 
 
@@ -84,5 +391,43 @@ header{
 
     #nav-container .hamburger-icon {
         display: none;
+    }
+
+    .my-col-desktop-33{
+        width: calc((100% / 3) - 20px);
+    }
+
+    .my-col-speciale{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .small-container{
+        padding: 60px 90px;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+    }
+    
+    .small-container .left-side,
+    .small-container .right-side{
+        margin: 0 30px;
+    }
+
+    .small-container .right-side .card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 30px 20px;
+    }
+
+    .small-container .left-side img{
+        width: 100%;
+        padding: 0;
+    }
+
+    .small-container .right-side img{
+        width: 60%;
     }
 }
