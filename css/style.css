@@ -148,6 +148,16 @@ main > section{
     margin: 20px 0;
 }
 
+.my-row .my-col-speciale .phone-image{
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: -20px;
+}
+
+.my-row .my-col-speciale .phone-image img{
+    width: 100%;
+}
+
 .small-container{
     padding-bottom: 40px;
 }
@@ -199,10 +209,6 @@ main > section{
     border: none;
     padding: 12px 15px;
     margin-top: 20px;
-}
-
-.my-row .my-col-speciale .phone-image img{
-    width: 100%;
 }
 
 .testimonials-top-container{
